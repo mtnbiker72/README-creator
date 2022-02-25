@@ -52,6 +52,7 @@ inquirer
         let description = ('Description of Project:', response.description);
         let installation = ('Installation Instructions:', response.installation);
         let usage = ('Usage:', response.usage);
+        let license = ('License:', response.license);
         let contributions = ('Contributions:', response.contributions);
         let testInstructions = ('Test Instructions:', response.test);
         let github = ('Github:', response.github);
@@ -60,15 +61,34 @@ inquirer
 const markup = `
 # ${project}
 
-* Project Descriptions: ${description} *
+*${description}*
 
 ## Table of Contents
-###### Installation Instructions: ${installation} 
-###### Usage: ${usage} 
-###### Contributions: ${contributions} 
-###### Questions: ${questions} 
-###### Github: ${github} 
-###### Email: ${email} 
+<details>
+
+<summary>"Click to Expand"</summary>
+
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [License](#license)
+4. [Contributions](#contributions)
+5. [Test Instructions](#testInstructions)
+6. [Questions](#questions)
+
+### Installation
+${installation}\n
+### Usage
+${usage}\n
+### License
+${license}
+### Contributions
+${contributions}\n
+### Test Instructions
+${testInstructions}\n
+### Questions
+www.github.com/${github}\n
+${email}\n
+
         `;
 
         fs.writeFile("README.md", (markup), (err)  =>
