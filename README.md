@@ -1,38 +1,57 @@
 
-# Heather's Project
+<style>
+H1{color:Blue !important;}
+H2{color:DarkOrange !important;}
+H3{color:LightBlue !important;}
+p{color:White !important;}
+</style>
 
-*This is a project to generate a README.md*
+# Heather's New Project
+
+*This app will take input from a user about their project and create a new README markdown file*
 
 ## Table of Contents
 <details>
-
 <summary>"Click to Expand"</summary>
 
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [License](#license)
-4. [Contributions](#contributions)
-5. [Test Instructions](#testInstructions)
-6. [Questions](#questions)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributions](#contributions)
+- [Test Instructions](#testInstructions)
+- [Questions](#questions)
+</details>
 
+<a name="installation"></a>
 ### Installation
-Just use node index.js
+Install node - brew install node
 
+
+<a name="usage"></a>
 ### Usage
 node index.js
 
+<a name="license"></a>
 ### License
-undefined
+Eclipse
+
+<a name="contributions"></a>
 ### Contributions
-Heather
+Noen
 
+
+<a name="testInstructions"></a>
 ### Test Instructions
-Just do i
+None
 
+
+<a name="questions"></a>
 ### Questions
-www.github.com/mtnbiker72
+If you have more questions, please see the following:
 
-heather.graham@yahoo.com
+* [www.github.com/mtnbiker72](https://github.com/mtnbiker72)
+
+* heather.graham@yahoo.com
 
 
         

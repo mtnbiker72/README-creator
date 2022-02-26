@@ -27,6 +27,12 @@ inquirer
             name: 'usage',
         },
         {
+            type: 'list',
+            message: 'What license was used for this application:',
+            name: 'license',
+            choices: ["MIT", "Apache 2.0", "Eclipse", "GUN GPLv3"],
+        },
+        {
             type: 'input',
             message: 'Contribution Guidelines:',
             name: 'contributions',
@@ -59,35 +65,54 @@ inquirer
         let email = ('Email:', response.email);
 
 const markup = `
+<style>
+H1{color:Blue !important;}
+H2{color:DarkOrange !important;}
+H3{color:LightBlue !important;}
+p{color:White !important;}
+</style>
+
 # ${project}
 
 *${description}*
 
 ## Table of Contents
 <details>
-
 <summary>"Click to Expand"</summary>
 
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [License](#license)
-4. [Contributions](#contributions)
-5. [Test Instructions](#testInstructions)
-6. [Questions](#questions)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributions](#contributions)
+- [Test Instructions](#testInstructions)
+- [Questions](#questions)
+</details>
 
+<a name="installation"></a>
 ### Installation
 ${installation}\n
+
+<a name="usage"></a>
 ### Usage
-${usage}\n
+${usage}
+
+<a name="license"></a>
 ### License
 ${license}
+
+<a name="contributions"></a>
 ### Contributions
 ${contributions}\n
+
+<a name="testInstructions"></a>
 ### Test Instructions
 ${testInstructions}\n
+
+<a name="questions"></a>
 ### Questions
-www.github.com/${github}\n
-${email}\n
+If you have more questions, please see the following:\n
+* [www.github.com/${github}](https://github.com/${github})\n
+* ${email}\n
 
         `;
 
