@@ -154,6 +154,8 @@ If you have more questions, please see the following:\n
 * Repo for the Project: [www.github.com/${github}/${repo}](https://github.com/${github}/${repo})\n
 * Email: ${email}\n
 
+For a video on how to use this application, please see -
+[![README Creator](README-generator.mp4 "README video")
 `;
 writeToFile("README.md", createMarkup); 
     })
