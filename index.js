@@ -151,7 +151,7 @@ ${testInstructions}\n
 ### Questions
 If you have more questions, please see the following:\n
 * Github for User: [www.github.com/${github}](https://github.com/${github})\n
-* Repo for the Project: [www.github.com/${github}/${repo}](https://github.com/${github}/{repo})\n
+* Repo for the Project: [www.github.com/${github}/${repo}](https://github.com/${github}/${repo})\n
 * Email: ${email}\n
 
 `;
