@@ -51,4 +51,6 @@ If you have more questions, please see the following:
 
 * Email: asdf
 
+For a video on how to use this application, please see -
+[![README Creator]({image-url})](README-generator.mp4 "Link Title")
 
