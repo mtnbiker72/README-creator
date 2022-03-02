@@ -6,21 +6,21 @@ H3{color:LightBlue !important;}
 p{color:White !important;}
 </style>
 
-# Heather’s README.md Generator    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Heather’s README.md Generator    [![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
 
 #### License used
-*This project is covered using the MIT license.*
+*This project is covered using the Eclipse license.*
 
 ## Table of Contents
 <details>
 <summary>"Click to Expand"</summary>
 
-- [Description](#description)
-- [Installation](#installation)
+- [Description](#description-of-project)
+- [Installation](#installation-instructions)
 - [Usage](#usage)
-- [License](#license)
+- [License](#license-used)
 - [Contributions](#contributions)
-- [Test Instructions](#testInstructions)
+- [Test Instructions](#test-instructions)
 - [Questions](#questions)
 </details>
 
@@ -39,7 +39,7 @@ See the GitHub URL at the bottom of the README.md file
 
 
 ### Test Instructions
-Manually
+Manually and often
 
 
 ### Questions
@@ -53,4 +53,5 @@ If you have more questions, please see the following:
 
 
 For a video on how to use this application, please see -
-[![README Creator](README-generator.mp4 "README video")
+https://drive.google.com/file/d/17L68sbHwQRpcc_dr10ET3xqGUl9_I83C/view
+

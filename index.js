@@ -124,12 +124,12 @@ p{color:White !important;}
 <details>
 <summary>"Click to Expand"</summary>
 
-- [Description](#description)
-- [Installation](#installation)
+- [Description](#description-of-project)
+- [Installation](#installation-instructions)
 - [Usage](#usage)
-- [License](#license)
+- [License](#license-used)
 - [Contributions](#contributions)
-- [Test Instructions](#testInstructions)
+- [Test Instructions](#test-instructions)
 - [Questions](#questions)
 </details>
 
@@ -154,8 +154,10 @@ If you have more questions, please see the following:\n
 * Repo for the Project: [www.github.com/${github}/${repo}](https://github.com/${github}/${repo})\n
 * Email: ${email}\n
 
-For a video on how to use this application, please see -
-[![README Creator](README-generator.mp4 "README video")
+For a video on how to use this application, please see - \n
+
+https://drive.google.com/file/d/1xc8K0nK9q8uXQWdf9Gs1iYDasji9RTl4/view
+
 `;
 writeToFile("README.md", createMarkup); 
     })
