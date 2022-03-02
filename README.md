@@ -28,18 +28,18 @@ p{color:White !important;}
 Create a README.md file that is based on user input
 
 ### Installation Instructions
-Clone my repo - git clone git@github.com:mtnbiker72/README-creator.git, cd README-creator, npm install
+git clone git@github.com:mtnbiker72/README-creator.git, cd README-creator, npm install, and node index.js
 
 
 ### Usage
-Simply run “node index.js”
+See the GitHub URL at the bottom of the README.md file
 
 ### Contributions
-See the GitHub URL at the bottom of the README.md file
+Contact me via email
 
 
 ### Test Instructions
-Manually and often
+manually and often
 
 
 ### Questions
@@ -52,6 +52,8 @@ If you have more questions, please see the following:
 * Email: heather.graham@yahoo.com
 
 
-For a video on how to use this application, please see -
-https://drive.google.com/file/d/17L68sbHwQRpcc_dr10ET3xqGUl9_I83C/view
+For a video on how to use this application, please see - 
+
+
+https://drive.google.com/file/d/1xc8K0nK9q8uXQWdf9Gs1iYDasji9RTl4/view
 

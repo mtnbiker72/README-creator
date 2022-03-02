@@ -22,7 +22,7 @@ const questions = () => {
         },
         {
             type: 'input',
-            message: 'Describe how to use this Project:',
+            message: 'Describe how to report issues:',
             name: 'usage',
         },
         {
@@ -156,7 +156,7 @@ If you have more questions, please see the following:\n
 
 For a video on how to use this application, please see - \n
 
-https://drive.google.com/file/d/1xc8K0nK9q8uXQWdf9Gs1iYDasji9RTl4/view
+https://drive.google.com/file/d/1NZ5colK5SqIEXHgDFdQZc6ttRkv895wk/view
 
 `;
 writeToFile("README.md", createMarkup); 
